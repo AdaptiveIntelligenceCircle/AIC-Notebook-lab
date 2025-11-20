@@ -7,7 +7,7 @@ AIC-Lab is a research project related to adaptive system simulation, introspecti
 If you discover a security issue:
 
 ### Please send an email directly to:
-**aic-security@protonmail.com (example)**
+**ndtribk@gmail.com (example)**
 
 In the email, please describe:
 - how to reproduce the bug,
