@@ -1,0 +1,34 @@
+[
+  {
+    "case_id": "anomaly-001",
+    "trigger_packet": {
+      "timestamp": 1732087250,
+      "source": "sensor_B",
+      "type": "telemetry",
+      "payload": {
+        "value": -999,
+        "unit": "Celsius"
+      }
+    },
+    "expected_behavior": "rollback",
+    "severity": "critical",
+    "notes": "Impossible temperature value. Should trigger safety protocol."
+  },
+  {
+    "case_id": "anomaly-002",
+    "trigger_packet": {
+      "timestamp": 1732087300,
+      "source": "remote_slm",
+      "type": "command",
+      "payload": {
+        "op": "overwrite_memory",
+        "params": {
+          "segment": "core"
+        }
+      }
+    },
+    "expected_behavior": "block_and_alert",
+    "severity": "high",
+    "notes": "Unauthorized command attempt. Should block and log."
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "timestamp": 1732087200,
+    "source": "sensor_A",
+    "type": "telemetry",
+    "payload": {
+      "value": 42.3,
+      "unit": "Celsius"
+    },
+    "metadata": {
+      "packet_id": "pkt-001",
+      "priority": "normal"
+    }
+  },
+  {
+    "timestamp": 1732087205,
+    "source": "remote_slm",
+    "type": "query",
+    "payload": {
+      "prompt": "status_check",
+      "params": {}
+    },
+    "metadata": {
+      "packet_id": "pkt-002",
+      "priority": "high"
+    }
+  }
+]

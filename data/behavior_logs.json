@@ -1,0 +1,32 @@
+[
+  {
+    "timestamp": 1732087210,
+    "state_before": {
+      "energy": 0.83,
+      "risk_level": "low",
+      "context_tags": ["normal_operation"]
+    },
+    "input_packet": "pkt-001",
+    "behavior_selected": "stabilize",
+    "confidence": 0.92,
+    "state_after": {
+      "energy": 0.85,
+      "risk_level": "low"
+    }
+  },
+  {
+    "timestamp": 1732087220,
+    "input_packet": "pkt-002",
+    "behavior_selected": "self_query",
+    "confidence": 0.75,
+    "introspection_summary": "SLM requested status check. No anomaly.",
+    "state_before": {
+      "energy": 0.85,
+      "risk_level": "low"
+    },
+    "state_after": {
+      "energy": 0.84,
+      "risk_level": "low"
+    }
+  }
+]
